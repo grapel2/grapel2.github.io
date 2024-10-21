@@ -18,12 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+auto: true
 title: Exolense sees the Worlds
 email: hannikaisa squiggle gmail dustspeck com
 description: >- # this means to ignore newlines until "baseurl:"
   Everyday ramblings and doings from a mind far away.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "grapel2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/supposedmyblog" # the subpath of your site, e.g. /blog
+url: "https://grapel2.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
